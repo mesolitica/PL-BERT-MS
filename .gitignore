@@ -5,3 +5,6 @@ Untitled.ipynb
 wikipedia_20220301.en.processed
 wiki_clean
 for-tokenizer
+vocab.pkl
+news
+texts
