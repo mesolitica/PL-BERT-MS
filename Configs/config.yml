@@ -1,7 +1,8 @@
 log_dir: "Checkpoint"
-mixed_precision: "fp16"
+mixed_precision: "bf16"
 data_folder: "wikipedia_20220301.en.processed"
-batch_size: 192
+data_hub: "mesolitica/PL-BERT-MS"
+batch_size: 8
 save_interval: 5000
 log_interval: 10
 num_process: 1 # number of GPUs
@@ -14,7 +15,7 @@ dataset_params:
     word_separator: 2 # token used for word separator (<formula>)
     token_maps: "token_maps.pkl" # token map path
     
-    max_mel_length: 512 # max phoneme length
+    max_mel_length: 256 # max phoneme length
     
     word_mask_prob: 0.15 # probability to mask the entire word
     phoneme_mask_prob: 0.1 # probability to mask each phoneme

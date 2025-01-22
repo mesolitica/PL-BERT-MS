@@ -9,6 +9,7 @@ Paper: [https://arxiv.org/abs/2301.08810](https://arxiv.org/abs/2301.08810)
 Audio samples: [https://pl-bert.github.io/](https://pl-bert.github.io/)
 
 ## Pre-requisites
+
 1. Python >= 3.7
 2. Clone this repository:
 ```bash
